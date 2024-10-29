@@ -1,0 +1,6 @@
+﻿services:
+  shop:
+    image: shop
+    build:
+      context: .
+      dockerfile: Dockerfile
